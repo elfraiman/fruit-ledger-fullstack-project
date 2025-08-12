@@ -2,7 +2,7 @@
 
 Welcome to the fullstack assignment for engineering positions at Lepaya.
 
-## 🚀 Quick Start for Reviewers
+##  Quick Start
 
 **One Command Setup:**
 ```bash
@@ -19,15 +19,13 @@ After the containers start, access:
 - **API Server**: http://localhost:3001  
 
 The application includes:
-- ✅ Fruit consumption reporting by office and year
-- ✅ Stock management with calorie limits (250kcal max)
-- ✅ PostgreSQL database with sample data
-- ✅ REST API with proper error handling
-- ✅ Responsive Preact frontend with modern UI
+- Fruit consumption reporting by office and year
+- Stock management with calorie limits (250kcal max)
+- PostgreSQL database with sample data
+- REST API with proper error handling
+- Responsive Preact frontend
 
-## 🧪 Testing
-
-The application includes comprehensive automated tests covering key functionalities:
+## Testing
 
 ### API Tests (Backend)
 ```bash
@@ -42,9 +40,9 @@ npm run test:watch --workspace=@lepaya/api
 ```
 
 **Coverage:**
-- ✅ Stock management (purchase validation, calorie limits)
-- ✅ Consumption reports (data retrieval, validation)
-- ✅ Error handling and edge cases
+- Stock management (purchase validation, calorie limits)
+- Consumption reports (data retrieval, validation)
+- Error handling and edge cases
 
 ### E2E Tests (Frontend)
 ```bash
@@ -56,15 +54,11 @@ npm run test:e2e:ui --workspace=@lepaya/web
 ```
 
 **Coverage:**
-- ✅ Stock management interface and workflows
-- ✅ Consumption reports generation and display
-- ✅ User interactions and form validation
+- Stock management interface and workflows
+- Consumption reports generation and display
+- User interactions and form validation
 
 ### Run All Tests
 ```bash
 npm run test:all
 ```
-
-### Test Requirements
-- **Database**: Tests require PostgreSQL to be running (via Docker or locally)
-- **Built Application**: E2E tests require the application to be built (`npm run build`)
