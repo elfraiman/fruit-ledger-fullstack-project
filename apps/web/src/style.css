@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Ensure full height layout */
+html, body, #app {
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Theme colors */
+@theme {
+  --color-primary: #FF4E50;
+  --color-secondary: #FF7F50;
+	--color-primaryAction: #75c752;
+}
+
+@font-face {
+	font-family: 'Wonderbar';
+	src: url('/assets/fonts/wonderbar.regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	font-family: 'Lato', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+	color: #222;
+	background-color: #ffffff;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+
+.font-wonderbar {
+	font-family: 'Wonderbar', cursive;
+}

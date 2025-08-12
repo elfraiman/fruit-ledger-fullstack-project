@@ -1,0 +1,24 @@
+# Dependencies (will be installed in container)
+node_modules/
+
+# Development files
+.git/
+*.md
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+
+# Test files and coverage
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+
+# Cache directories
+.npm/
+.cache/

@@ -1,0 +1,31 @@
+{
+  "name": "lepaya-fullstack-assignment",
+  "version": "1.0.0",
+  "description": "Lepaya fullstack assignment - fruit tracking application",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "npm run dev --workspace=@lepaya/api",
+    "dev:web": "npm run dev --workspace=@lepaya/web",
+    "build": "npm run build --workspaces",
+    "deploy": "npm run build --workspaces && docker-compose up --build",
+    "test": "npm run test:api",
+    "test:api": "npm run test --workspace=@lepaya/api",
+    "test:e2e": "npm run test:e2e --workspace=@lepaya/web",
+    "test:all": "npm run test:api && npm run test:e2e"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "author": "Elan Fraiman",
+  "license": "MIT"
+}
