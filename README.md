@@ -1,7 +1,3 @@
-# Lepaya Full Stack Assignment
-
-Welcome to the fullstack assignment for engineering positions at Lepaya.
-
 ##  Quick Start
 
 **One Command Setup:**
