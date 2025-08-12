@@ -6,7 +6,7 @@ Welcome to the fullstack assignment for engineering positions at Lepaya.
 
 **One Command Setup:**
 ```bash
-1. npm install && npm run deploy
+npm install && npm run deploy
 ```
 
 This will:
